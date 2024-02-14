@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frameworks</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- font awesome -->
+      <link rel="icon" type="image/png" href="logo.jpeg" sizes="32x32">
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&display=swap" rel="stylesheet"> 
+  <!-- bootstrap icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <!--Css-->
+  <style>
+/* header section */
+.header-section {
+  background-color: rgb(1, 14, 23);
+  padding: 0px 0;
+}
+
+.company-logo img {
+  max-width: 670px; /* Adjust as needed */
+  height: auto;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+}
+
+.company-name h1 {
+  margin-left: 15px;
+  font-size: 24px;
+}
+
+.header-icons a {
+  margin-left: 10px;
+  color: #f4f0f0;
+  font-size: 18px;
+}
+
+.header-icons a:hover{
+  color: rgb(210, 105, 19);
+}
+
+@media (max-width: 768px) {
+  .company-logo img {
+    max-width: 320px; /* Adjust as needed */
+  }
+  .header-icons a{
+    font-size: 10px;
+  }
+}
+/* navbar */
+#navcolor{
+  background-color:rgb(210, 105, 19) ;
+  
+}
+/* Navbar link styles */
+.navbar-nav .nav-link {
+color: white;
+transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+color: rgb(27, 15, 91); /* Change color on hover */
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+background-color: rgb(210, 105, 19); /* Dropdown background color */
+}
+
+.dropdown-menu a {
+color: white;
+transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for background and color */
+}
+
+.dropdown-menu a:hover {
+background-color: rgba(10, 10, 10, 0.2); /* Change background color on hover */
+color: white; /* Change text color on hover */
+}
+
+
+
+
+
+
+    
+   .nav2{
+      background-color: white;
+      padding-left: 90px;
+      /* margin-top:-3 */
+  
+    
+   }
+   
+   .container-fluid{
+    /* width: 200px; */
+    padding: 10px;
+   }
+   
+   .nav2{
+    /* width: 100%; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    
+   }
+   
+div p{
+  text-align: left;
+}
+    h3 {
+        margin-bottom: 100px; /* Adjust the margin as needed */
+    }
+    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
+
+        section {
+            max-width: 1700px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: left;
+            margin-top: 3%;
+        }
+
+        h2 {
+            color: #333;
+            
+        }
+        h4{
+          margin-top: 5%;
+          padding-right: 28%;
+          
+        }
+
+        
+
+        .features {
+            list-style: none;
+            padding: 0px;
+            margin-bottom: 5%;
+          
+        }
+        
+        /* footer*/
+
+  
+
+  footer {
+    background-color: #0c0c0c;
+    color: rgb(210, 105, 19);
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(210, 105, 19);
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .social-links a:hover {
+    color:rgb(255, 255, 255);  /* Change the color on hover */
+  }
+/* footer*/
+
+        .features li {
+            margin-bottom: 2%;
+          
+        }
+       
+        
+       
+
+       /* Style container */
+.download-button, .demo-button {
+  text-align: center; /* Center aligns the content */
+  margin: 20px 6; /* Adds some space above and below each container */
+}
+
+/* Style for the paragraphs to space out links */
+.download-button p, .demo-button p {
+  margin: 10px 3; /* Adds some space between paragraphs */
+  font-size: 16px; /* Adjust font size */
+}
+
+/* General link styles */
+a {
+  text-decoration: none; /* Removes underline from links */
+  color: #c27523; /* Bootstrap's default link color, adjust as needed */
+  font-weight: bold; /* Makes the text bold */
+}
+
+/* Hover effect for links */
+a:hover, a:focus {
+  color:#c27523; /* Darker shade for hover state, adjust as needed */
+  text-decoration: underline; /* Adds underline on hover for better indication */
+}
+
+/* Style specific to download and demo buttons */
+.download-button a, .demo-button a {
+  padding: 8px 12px; /* Adds some padding around the text */
+  border-radius: 5px; /* Rounds the corners of the link */
+  background-color: #b9bcbf; /* Light background, adjust as needed */
+  border: 1px solid #dae0e5; /* Adds a subtle border, adjust as needed */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.download-button a:hover, .demo-button a:hover {
+  background-color: #e2e6ea; /* Slightly darker background on hover */
+  border-color: #dae0e5; /* Adjust border color on hover */
+}
+
+       .tec{
+        margin-right: 80%;
+        padding-top: 10%;
+        margin-top: 2%;
+
+       }
+       .content{
+             display:inline;
+       }
+    
+  </style>
+  
+</head>
+<body class="body">
+   <!-- header section -->
+<!-- header section -->
+<header class="header-section pt-2">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="company-info">
+          <div class="company-logo">
+            <img src="header.png" alt="Company Logo">
+          </div>
+      
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="header-icons text-end">
+          <a href="https://facebook.com/nccsuetp" target="_blank"><i class="fab fa-facebook" aria-hidden="true" title="facebook"></i></i></a>
+          <a href="https://www.linkedin.com/company/national-center-for-cyber-security-uetp/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true" title="linkedin"></i></a>
+          <a href="index.html" target="_blank" onclick="alert('2nd Floor, New Academic Block, UET Peshawar, Pakistan');"><i class="fas fa-home" aria-hidden="true"
+            title="2nd Floor, New Academic Block, UET Peshawar, Pakistan"></i></a>
+          <a href="#" onclick="alert('Tel: +92-91-9216590 | Mob: +92-320-9733968' );"><i class="fas fa-phone" aria-hidden="true"
+            title="Tel: +92-91-9216590 | Mob: +92-320-9733968"></i></a>
+          <a href="mailto:nccs%40uetpeshawar.edu.pk" target="_blank"><i class="far fa-envelope" aria-hidden="true" title="nccs@uetpeshawar.edu.pk"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark border-bottom  border-3  mt-2" id="navcolor">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="researchDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Research
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="researchDropdown">
+              <li><a class="dropdown-item" href="#">Funded Research Projects</a></li>
+              <li><a class="dropdown-item" href="#">Publications</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Security Testing Lab Overview</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+              <li><a class="dropdown-item" href="tools.html">Tools</a></li>
+              <li><a class="dropdown-item" href="Frameworks.html">Frameworks</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="eventsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Events
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="eventsDropdown">
+              <li><a class="dropdown-item" href="#">Workshops</a></li>
+              <li><a class="dropdown-item" href="#">Seminars</a></li>
+              <li><a class="dropdown-item" href="#">Upcoming Conferences</a></li>
+              <li><a class="dropdown-item" href="#">Upcoming Training Events and Workshops</a></li>
+              <li><a class="dropdown-item" href="#">Past Events</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="coursesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="coursesDropdown">
+              <li><a class="dropdown-item" href="#">NCCS-UETP</a></li>
+              <li><a class="dropdown-item" href="#">NAVTTC Pakistan</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Simulations</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="coursesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Gallery
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="coursesDropdown">
+              <li><a class="dropdown-item" href="#">Events</a></li>
+              <li><a class="dropdown-item" href="#">Workshops</a></li>
+              <li><a class="dropdown-item" href="#">Visits</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="coursesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Research Team
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="coursesDropdown">
+              <li><a class="dropdown-item" href="#">Faculty</a></li>
+              <li><a class="dropdown-item" href="#">Researchers</a></li>
+              <li><a class="dropdown-item" href="#">PhD Scholars</a></li>
+              <li><a class="dropdown-item" href="#">MS Scholars</a></li>
+              <li><a class="dropdown-item" href="#">Undergraduates</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="nav2">
+
+    <h1>Ongoing Projects</h1>
+    <p>1. Permission Analysis of Frequently Used Mobile Applications via Reverse Engineering (Domain - Security Testing)</p>
+    <p>2. Detection of Malicious Emails in Android Smartphones (Domain - Security Testing)</p>
+    <p>3. Automatic Security Assessment tool for Online Internet Banking (Domain - Security Testing)</p>
+    <p>3. Automatic Security Assessment tool for Online Internet Banking (Domain - Security Testing)</p>
+    <p>4. Tool for Automated Penetration Testing (Domain - Security Testing)</p>
+    <p>5. An effective tool for web application defacement (Domain - Security Testing)</p>
+    <p>6. Security of smart logistics and intelligent container (Domain - Secured IoT Devices)</p>
+    <p>7. Blockchain based system for record keeping (Domain - Blockchain Security)</p>
+    <p>8. Proof of Pseudonym: Blackchain-based Privacy Preserving Protocol</p><br>
+
+      <div class="content">
+          <h1>Project Completed/Tools Developed</h1>
+          <h4>
+              <strong>1. Automated Tool for Security Asset Classification (ATSAC)</strong>
+          </h4>
+          <h4>
+              <strong>Version:</strong> V 1.0
+          </h4>
+        
+              ATSAC provides an organization a detailed overview about the security requirements for their assets and to
+              prioritize their assets for security testing by providing them a detailed report.
+          
+  
+          <h4>Silent Features:</h4>
+        
+          <ul>
+              <li>.Can be utilized in any phase of the development lifecycle.</li>
+              <li>.Used to assess the security of a single application or classify multiple applications based on their
+                  security posture.</li>
+              <li>.Is customized, an organization can set the tool parameters according to their requirements.</li><br>
+          
+  
+         
+          <div class="download-button">
+              <p>Download Code: <a>Zip File</a></p>
+              <p >Download JAR File: <a>JAR File</a></p>
+          </div><br>
+  
+          <div class="demo-button">
+              <p>Demo: <a>Play</a></p>
+          </div>
+          <hr>
+        
+         
+      </li>
+        <h4><strong>2. ISSL-Testbed for Web Application Vulnerabilities (ISSL-Testbed)</strong> </h4>
+      <h4><strong>version:</strong> v 1.0
+      </h4>
+
+      <p>ISSL-Testbed is deliberately insecure web application used for training/practice and development <br> of vulnerability testing tools and techniques in controlled environments. Currently, the testbed contains<br> most of the injection vulnerabilities such as SQL injection, XML injection, XSS, XPaths, JSON injection, etc.<br> Other types of vulnerabilities will be included in the next version of the testbed.</p>
+      <h4>Silent Features</h4>
+      <ul>
+        <li>A free and open-source testbed</li>
+        <li>Helps security enthusiasts, developers, and students to discover and to prevent web vulnerabilities</li>
+        <li>Prepares one to conduct successful penetration testing and ethical hacking projects</li>
+        <li>Used to test or evaluate the developed tool for the particular vulnerability included in the testbed.</li>
+        </ul><br>
+      
+        <div class="download-button">
+          <p>Download Code: <a>Zip File</a></p>
+          <p>Download JAR File: <a>JAR File</a></p>
+      </div>
+
+      <div class="demo-button">
+          <p>Demo: <a>Play</a></p>
+      </div>
+      <hr>
+      <h4>
+        <strong>3. Evolutionary Algorithm based Vulnerability Detection Tool (EAB-VDT)</strong>
+      </h4>
+     <h4><strong>version:</strong> v 1.0</h4>
+     <p>EAB-VDT is purely based on evolutionary algorithm (EA) to generate effective testcases for the following vulnerabilities and detect them in an adequate time</p>
+
+     <div class="tec">
+     <p>&#10003;  JSON Injection</p>
+     <p>&#10003; XML Injection</p>
+     <p>&#10003;Cross Site Scripting</p>
+     <p>&#10003;SQL Injection</p> 
+    </div>
+     <h4>Silent Features</h4>
+     <ul>
+       <li>Utilizes evolutionary testing technique for effectiveness and efficiency</li>
+       <li>
+        The gray-box approach of the tool allows for precise & accurate results</li>
+         <li>It is available in one complete module which contain all the above-mentioned vulnerabilities</li>
+         <li>The tool is also available in a single vulnerability module.</li>
+
+       </ul>
+       <br>
+       <div class="download-button">
+         <p>Download Code: <a>Zip File</a></p>
+         <p >Download JAR File: <a>JAR File</a></p>
+     </div>
+
+     <div class="demo-button">
+         <p></p> Demo: <a>Play</a> </p>
+     </div>
+     <hr>
+     
+
+      <h4>
+        <strong>4. Smart Container(smart Longistics)</strong></h4>
+        <h4><strong>version:</strong> v 1.0</h4>
+        <p>Smart Container is based on the integration of IoT technology with logistic modules.The container is used to securely transmit information of environmental parameters inside a container during land or sea transportation to ensure confidentiality and integrity of the transmitted data.</p>
+        <h4>Silent Features</h4>
+        <ul>
+          <li>Trust-based model categorizes IoT devices into either Entity-Oriented Trust Model (EOTM), Data-Oriented Trust Model (DOTM), Combined Trust Model (CTM)
+          </li>
+          <li>
+            The proposed framework used in the container outperforms random nodes placement scenarios by using percentage increase rule</li>
+<li>Random and Interval based scans on nodes ensure a secured</li>
+<li>Identification of Malicious nodes based on Multi-criteria decision mechanism.</li>
+</ul> <br>
+<div class="download-button">
+  <p>Download Code: <a>Zip File</a></p>
+</div>
+
+  
+  <div class="demo-button">
+    <p>Demo: <a>Play</a></p>
+</div>
+
+<hr>
+
+<h4>
+  <strong>5. Supply Chain Management Application (Blockchain-SCMA)</strong></h4>
+  <h4><strong>version:</strong> v 1.0</h4>
+  <p>A decentralized approach to a Management Information System (MIS). Keeps track of every step or movement of products by using blockchain technology to identify the origin of an item and tracking its path from its source to destination. Provides easy to use and modern interface for all stakeholders</p>
+  <h4>Silent Features</h4>
+  <ul>
+    <li>Provides provenance of individual products and tracking its path from its source to destination.</li>
+    <li>The value of luxury items such as diamonds, works of art, and more depend in large part on their history.</li>
+<li>The application has been developed for the gems and jewels industry, as well as for perishable food products.</li>
+</ul><br>
+<div class="download-button">
+  <p>Download Code: <a>Zip File</a></p>
+</div>
+
+  
+  <div class="demo-button">
+    <p>Demo: <a>Play</a></p>
+</div>
+
+<h4>
+  <strong>6.Pseudonym based Anonymous Chat Application (Chapp) </strong></h4>
+  <h4><strong>version:</strong> v 1.0</h4>
+  <p>Chaap is pseudonym based anonymous chatting application focused on privacy and secrecy of chats. Chaap provideds as a basic application platform for organization which will further be customized depending on the organizational requirements i.e., file sharing mechanisms, notifications system mechanism etc</p>
+  <h4>Silent Features</h4>
+  <ul>
+    <li>Deliver confidential messages in a private, secure and anonymous manner without being stored on any central party. </li>
+    <li>Confidential messages to be sent only if the user is online</li>
+<li>Use of Pseudonym instead of real identity. Pseudonym can not to be traced backed to the original user</li>
+<li>Application maintenance service is also available</li>
+</ul><br>
+<div class="download-button">
+  <p>Download Code: <a>Zip File</a></p>
+</div>
+
+  
+  <div class="demo-button">
+    <p>Demo: <a>Play</a></p>
+</div>
+
+<hr>
+          
+      </div>
+</div>
+
+    
+<!-- footer -->
+
+<footer class="pt-2">
+  <div class="social-links">
+    <a href="https://www.linkedin.com/company/national-center-for-cyber-security-uetp/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true" title="linkedin"></i></a>
+    <a href="index.html" target="_blank" onclick="alert('2nd Floor, New Academic Block, UET Peshawar, Pakistan');"><i class="fas fa-home" aria-hidden="true"
+      title="2nd Floor, New Academic Block, UET Peshawar, Pakistan"></i></a>
+    <a href="https://facebook.com/nccsuetp" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true" title="facebook"></i></a>
+    <a href="#" target="_blank"><i   class="fab fa-twitter" ></i></a>
+    <a href="#" onclick="alert('Tel: +92-91-9216590 | Mob: +92-320-9733968' );"><i class="fas fa-phone" aria-hidden="true"
+      title="Tel: +92-91-9216590 | Mob: +92-320-9733968"></i></a>
+    <a href="mailto:nccs%40uetpeshawar.edu.pk" target="_blank"><i class="far fa-envelope" aria-hidden="true" title="nccs@uetpeshawar.edu.pk"></i></a>
+  </div>
+  <p>&copy; Copyright 2023 Innovative Secured Systems Lab - UET Peshawar, Pakistan.</p>
+</footer>
+<!-- footer -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+<!-- Bootstrap JS bundle (includes Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+      
+  
+    
