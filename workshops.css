@@ -1,0 +1,260 @@
+/* header section */
+.header-section {
+  background-color: rgb(1, 14, 23);
+  padding: 0px 0;
+}
+
+.company-logo img {
+  max-width: 670px; /* Adjust as needed */
+  height: auto;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+}
+
+.company-name h1 {
+  margin-left: 15px;
+  font-size: 24px;
+}
+
+.header-icons a {
+  margin-left: 10px;
+  color: #f4f0f0;
+  font-size: 18px;
+}
+
+.header-icons a:hover{
+  color: rgb(210, 105, 19);
+}
+
+@media (max-width: 768px) {
+  .company-logo img {
+    max-width: 320px; /* Adjust as needed */
+  }
+  .header-icons a{
+    font-size: 10px;
+  }
+}
+/* navbar */
+#navcolor{
+  background-color:rgb(210, 105, 19) ;
+  
+}
+/* Navbar link styles */
+.navbar-nav .nav-link {
+color: white;
+transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+color: rgb(27, 15, 91); /* Change color on hover */
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+background-color: rgb(210, 105, 19); /* Dropdown background color */
+}
+
+.dropdown-menu a {
+color: white;
+transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for background and color */
+}
+
+.dropdown-menu a:hover {
+background-color: rgba(10, 10, 10, 0.2); /* Change background color on hover */
+color: white; /* Change text color on hover */
+}
+
+
+
+/* header section */
+
+
+
+/*===============================
+	Events CSS 
+=================================*/
+.section-title {
+  /* Other styles... */
+  text-align: center; /* Center aligns the text for the title */
+}
+
+.section-title .icon {
+  /* Other styles... */
+  display: block; /* This makes the div behave like a block element */
+  text-align: center; /* Center aligns the icon */
+  color: rgb(210, 105, 19); /* This sets the icon color to orange */
+  margin-top: 15px; /* Adds spacing between the paragraph and icon */
+}
+
+.fa-clock {
+  color: rgb(210, 105, 19); /* Bootstrap's default green color */
+}
+
+.fa-paper-plane {
+  color: inherit; /* This ensures the icon inherits the color from its parent */
+}
+
+
+.events {
+  background: #F8F8F8;
+  padding: 50px 0;
+}
+.single-event {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%; /* Adjust width as needed */
+  height: 500px; /* Adjust height as needed */
+  margin-bottom: 30px; /* Space between events */
+}
+.single-event .event-img img {
+  width: calc(100% - 20px) !important;
+  height: auto !important;
+  margin: 10px !important;
+  display: block !important;
+}
+
+.events .single-event {
+  position: relative;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+  overflow: hidden; /* This will contain the image within the bounds of the event */
+}
+
+.events .single-event .event-img {
+  max-width: 100%;
+  overflow: hidden;
+}
+.events .event-img {
+  position: relative;
+  /* Other styles */
+}
+.events .single-event .event-img img {
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.events .single-event:hover .event-img img {
+  transform: scale(1.1);
+}
+
+.events .event-date {
+  position: absolute;
+  top: 0;
+  right: 10;
+  margin-top: 15px;
+  margin-left: 15px;
+  background: rgb(210, 105, 19); /* This is the orange color */
+  color: #fff;
+  padding: 5px 10px; /* Adjust padding as needed */
+  text-align: center;
+  border-top-left-radius: 4px; /* Optional: for rounded corners */
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.events .event-content {
+  padding: 20px;
+}
+
+.events .event-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.events .event-title a {
+  color: #252525;
+  text-decoration: none;
+}
+
+.events .entry-date-time {
+  color: #555;
+  display: block;
+  margin-top: 10px;
+}
+.btn-primary {
+  background-color: rgb(210, 105, 19); /* Primary blue color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding */
+  font-size: 16px; /* Font size */
+  border-radius: 4px; /* Rounded corners */
+  border: none; /* No border */
+  margin-left: 80%;
+  transition: background 0.2s; /* Smooth background transition */
+}
+
+.btn-primary:hover {
+  color: rgb(210, 105, 30) !important; /* Text color changes to orange on hover */
+  background-color: rgb(255, 255, 255) !important; /* Background becomes white on hover */
+  border-color: rgb(210, 105, 30) !important; 
+}
+
+/* Adjustments for medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .single-event .event-content h3 {
+    font-size: 1.2em; /* Adjust the font size as needed */
+  }
+
+  .single-event .event-content p,
+  .single-event .event-content .entry-date-time {
+    font-size: 0.95em; /* Adjust the font size as needed */
+  }
+}
+
+/* Adjustments for small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+
+  
+
+  .single-event .event-content h3 {
+    font-size: 1.1em; /* Adjust the font size as needed */
+  }
+
+  .single-event .event-content p,
+  .single-event .event-content .entry-date-time {
+    font-size: 0.9em; /* Adjust the font size as needed */
+  }
+
+  .single-event .event-content .btn {
+    padding: .5rem 1rem; /* Adjust the padding as needed */
+    font-size: 0.8em; /* Adjust the font size as needed */
+  }
+}
+
+/*===============================
+	End Events CSS 
+=================================*/
+
+
+
+/* footer*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background-color: #0c0c0c;
+  color: rgb(210, 105, 19);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(210, 105, 19);
+  font-size: 24px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+  color:rgb(255, 255, 255);  /* Change the color on hover */
+}
+/* footer*/

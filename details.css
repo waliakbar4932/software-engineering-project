@@ -1,0 +1,142 @@
+/* header section */
+.header-section {
+    background-color: rgb(1, 14, 23);
+    padding: 0px 0;
+  }
+  
+  .company-logo img {
+    max-width: 670px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .company-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-name h1 {
+    margin-left: 15px;
+    font-size: 24px;
+  }
+  
+  .header-icons a {
+    margin-left: 10px;
+    color: #f4f0f0;
+    font-size: 18px;
+  }
+  
+  .header-icons a:hover{
+    color: rgb(210, 105, 19);
+  }
+  
+  @media (max-width: 768px) {
+    .company-logo img {
+      max-width: 320px; /* Adjust as needed */
+    }
+    .header-icons a{
+      font-size: 10px;
+    }
+  }
+  /* navbar */
+  #navcolor{
+    background-color:rgb(210, 105, 19) ;
+    
+  }
+  /* Navbar link styles */
+  .navbar-nav .nav-link {
+  color: white;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+  }
+  
+  .navbar-nav .nav-link:hover {
+  color: rgb(27, 15, 91); /* Change color on hover */
+  }
+  
+  /* Dropdown menu styles */
+  .dropdown-menu {
+  background-color: rgb(210, 105, 19); /* Dropdown background color */
+  }
+  
+  .dropdown-menu a {
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for background and color */
+  }
+  
+  .dropdown-menu a:hover {
+  background-color: rgba(10, 10, 10, 0.2); /* Change background color on hover */
+  color: white; /* Change text color on hover */
+  }
+
+   /* navbar*/
+
+
+
+.course-container {
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.course-header h1 {
+    text-align: center;
+    color: #333;
+}
+
+.underline {
+    width: 50px;
+    height: 4px;
+    background-color: rgb(210, 105, 19); /* Or any other color you prefer */
+    margin: 10px auto;
+}
+
+.course-content {
+    padding: 20px;
+}
+
+.course-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.course-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.course-content ul li {
+    background: url('path-to-your-bullet-image.png') no-repeat left center;
+    padding-left: 25px; /* Adjust based on your bullet image */
+    margin-bottom: 10px;
+}
+
+  
+  /* footer*/
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  footer {
+    background-color: #0c0c0c;
+    color: rgb(210, 105, 19);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(210, 105, 19);
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    color:rgb(255, 255, 255);  /* Change the color on hover */
+  }
+  /* footer*/
+  

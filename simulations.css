@@ -1,0 +1,360 @@
+/* header section */
+
+.header-section {
+  background-color: rgb(1, 14, 23);
+  /* Adjust padding as needed */
+}
+
+.company-logo img {
+  max-width: 100%; /* Adjust max-width to control the size of the logo */
+  height: auto;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+}
+
+.company-name h1 {
+  margin-left: 15px;
+  font-size: 20px; /* Adjust font size for the heading */
+  color: white; /* Adjust text color for the heading */
+}
+
+.header-icons a {
+  margin-left: 10px;
+  color: #f4f0f0;
+  font-size: 18px;
+}
+
+.header-icons a:hover {
+  color: rgb(210, 105, 19);
+}
+
+@media (max-width: 768px) {
+  .company-logo img {
+    max-width: 100%; /* Adjust max-width for smaller screens */
+  }
+  .header-icons a {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* header section */
+
+
+/* header section */
+
+/* navbar */
+#navcolor{
+  background-color:rgb(210, 105, 19) ;
+  
+}
+/* Navbar link styles */
+.navbar-nav .nav-link {
+color: white;
+transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+color: rgb(27, 15, 91); /* Change color on hover */
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+background-color: rgb(210, 105, 19); /* Dropdown background color */
+}
+
+.dropdown-menu a {
+color: white;
+transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for background and color */
+}
+
+.dropdown-menu a:hover {
+background-color: rgba(10, 10, 10, 0.2); /* Change background color on hover */
+color: white; /* Change text color on hover */
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.text-container {
+  flex: 1;
+  padding: 10%;
+  background-color: #f0f0f0;
+}
+
+
+/* header section */
+/* navbar */
+  #navcolor{
+    background-color:rgb(210, 105, 19) ;
+    
+  }
+  /* Navbar link styles */
+.navbar-nav .nav-link {
+  color: white;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(27, 15, 91); /* Change color on hover */
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  background-color: rgb(210, 105, 19); /* Dropdown background color */
+}
+
+.dropdown-menu a {
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for background and color */
+}
+
+.dropdown-menu a:hover {
+  background-color: rgba(10, 10, 10, 0.2); /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+
+/* header section */
+
+
+/* FAQ styles */
+
+
+.top-centered-section {
+  background-color: white;
+  text-align: center;
+}
+
+.top-centered-section .text-center {
+  margin: 0 auto 2.5rem; /* Remove the max-width property */
+  padding: 0 15px; /* Add horizontal padding if needed */
+}
+
+.top-centered-section h2.text-primary {
+  color: rgb(32, 32, 32) !important;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+.top-centered-section h3.text-primary {
+  color: black !important;
+}
+
+.top-centered-section .display-8 {
+  margin: 1rem 4rem; /* top and bottom margins are 2rem, left and right margins are 4rem */
+  text-align: center; /* Justify the text to spread it across the width */
+}
+
+
+
+.icon i {
+  font-size: 40px;
+  position: relative; /* Set the position relative to its current position */
+  bottom: 15px;
+  color: rgb(210, 105, 19);
+  transition: transform 0.3s;
+  margin-top: -2rem; /* Adjust as necessary */
+}
+
+
+.faq-main {
+    display: flex;
+    margin-top: 50px; 
+  
+  }
+  
+  .faqs {
+    background-color: #fff;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+  .faq-content {
+    width: 90%;
+    margin-left: 2rem;
+  }
+  
+  .faq-image {
+    width:50%;
+    overflow: hidden;
+   
+    text-align:left; 
+    margin-left: 0;
+    
+  }
+  
+  .faq {
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .faq-title {
+    padding: 15px;
+    font-size: 15px;
+    position: relative;
+    color: #252525;
+    background: #fff;
+    width: 100%;
+    display: block;
+    font-weight: 700;
+  }
+  
+  .faq-title:hover {
+    color: rgb(210, 105, 19);
+  }
+  .faq-main .faq {
+    background: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    border: none;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0px 0px 5px rgb(210, 105, 19);
+    -moz-box-shadow: 0px 0px 5px rgb(210, 105, 19);
+    box-shadow: 0px 0px 5px rgb(210, 105, 19);
+  }
+  
+  .faq-body {
+    padding: 10px;
+    color: #555;
+    font-size: 14px;
+    line-height: 24px;
+    background: #fff;
+    display: none;
+    margin-top: 5px;
+    
+  }
+  .faq-body h3,
+  .faq-body p {
+    max-width: 700px; /* Adjust this value as needed */
+  margin-right: auto; /* Keeps the paragraph aligned to the left */
+  margin-left: 0; 
+  }
+  
+  /* Style for the image to ensure it takes up only necessary space */
+  .faq-body img {
+    flex: 0 1 auto; /* img will not grow but can shrink */
+    margin-left: 50rem; /* Adds some space between the text and the image */
+    margin-top: -8rem;
+    width: 30%;
+  
+  }
+  .faq-body .buttons-container {
+    display: flex; /* Use flexbox to align children inline */
+    align-items: center; /* Align buttons vertically */
+    justify-content: flex-start; /* Align buttons to the start of the flex container */
+    margin-left: auto; /* Adjust this as needed to position the container */
+    margin-right: 12rem; /* Adjust this as needed to position the container */
+    width: fit-content; /* Set the width of the container to fit its content */
+    color: orange;
+}
+.faq-body .btn {
+  margin: 0 5px; 
+  width: 5rem;
+  color: rgb(249, 247, 245);
+  background-color: rgb(210, 105, 19);
+}
+.faq-body .btn-:hover {
+  color: rgb(210, 105, 30) !important; /* Text color changes to orange on hover */
+  background-color: rgb(255, 255, 255) !important; /* Background becomes white on hover */
+  border-color: rgb(210, 105, 30) !important; }
+
+  .faq-main {
+    margin-left: 80px; 
+  }
+  .faq-body.active {
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .faq-image {
+      float: none;
+    position: static;
+    }
+  
+
+  .faq-main, .faq-content, .faq-body, .faq-body img {
+    width: 100%; /* Full width for all main content elements */
+    margin: 0; /* Reset any margins that might be causing the issue */
+    padding: 0; /* Reset any padding */
+    box-sizing: border-box; /* Make sure padding and borders are included in the width */
+  }
+
+  /* Reset any floats or positioning */
+  .faq-body img {
+    float: none;
+    position: static;
+    margin-left: 10rem;
+  }
+
+  .buttons-container {
+    justify-content: center; /* Center the buttons if there's space */
+  }
+
+  /* Additional resets for other elements if needed */
+}
+
+  /* Adjustments for medium screens */
+  @media (max-width: 992px) {
+    .faq-body img {
+      width: 60%; /* Full width on medium screens */
+      max-width: 160px; /* Adjust max-width for medium screens */
+      margin-right: 100rem;
+    }
+  
+    .faq-content, .faq-body h6, .faq-body p, .faq-body .buttons-container {
+      width: 100%; /* Full width for content */
+      padding: 0 15px; /* Consistent padding */
+    }
+  
+    .faq-body .btn {
+      width: auto; /* Auto width for text adjustment */
+      padding: 10px 15px; /* Smaller padding for medium screens */
+      margin: 15px 2; /* Space between buttons when stacked */
+      margin-bottom: 1rem;
+    }
+  }
+
+  
+  
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background-color: #0c0c0c;
+  color: rgb(210, 105, 19);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(210, 105, 19);
+  font-size: 24px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+  color:rgb(255, 255, 255);  /* Change the color on hover */
+}
+/* footer*/

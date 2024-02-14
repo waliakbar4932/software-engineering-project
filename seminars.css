@@ -1,0 +1,264 @@
+/* header section */
+.header-section {
+    background-color: rgb(1, 14, 23);
+    padding: 0px 0;
+  }
+  
+  .company-logo img {
+    max-width: 670px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .company-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-name h1 {
+    margin-left: 15px;
+    font-size: 24px;
+  }
+  
+  .header-icons a {
+    margin-left: 10px;
+    color: #f4f0f0;
+    font-size: 18px;
+  }
+  
+  .header-icons a:hover{
+    color: rgb(210, 105, 19);
+  }
+  
+  @media (max-width: 768px) {
+    .company-logo img {
+      max-width: 320px; /* Adjust as needed */
+    }
+    .header-icons a{
+      font-size: 10px;
+    }
+  }
+/* navbar */
+  #navcolor{
+    background-color:rgb(210, 105, 19) ;
+    
+  }
+  /* Navbar link styles */
+.navbar-nav .nav-link {
+  color: white;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(27, 15, 91); /* Change color on hover */
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  background-color: rgb(210, 105, 19); /* Dropdown background color */
+}
+
+.dropdown-menu a {
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for background and color */
+}
+
+.dropdown-menu a:hover {
+  background-color: rgba(10, 10, 10, 0.2); /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+
+/*********************************
+10. Events
+*********************************/
+.col{
+  margin-top: 2rem;}
+.events {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* This is redundant due to .text-center but included for clarity */
+    padding-top: 50px; /* Adjust the padding to suit your design */
+    padding-bottom: 50px; /* Adjust the padding to suit your design */
+    background-color: #f0f0f0;
+}  
+.events_row
+{
+	margin-top: 47px;
+}
+.event_left
+{
+	padding-right: 20px;
+}
+.event_mid
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.event_right
+{
+	padding-left: 20px;
+}
+.event_image
+{
+	width: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.event_image img
+{
+	max-width: 100%;
+}
+.event_body
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.event_date
+{
+	box-shadow: 0px 1px 10px rgb(210, 105, 19);
+    margin-right: 5px;
+}
+.event_date > div
+{
+	width: 60px;
+	height: 60px;
+}
+.event_day
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	color: rgb(210, 105, 19);
+	font-weight: 700;
+	line-height: 0.75;
+}
+.event_month
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: rgb(210, 105, 19);
+	font-weight: 400;
+	line-height: 0.75;
+	margin-top: 9px;
+}
+.event:hover .event_date > div
+{
+	background: rgb(210, 105, 19);
+}
+.event:hover .event_day,
+.event:hover .event_month
+{
+	color: #FFFFFF;
+}
+.event_content
+{
+	padding-left: 20px;
+}
+
+.section_title {
+    font-size: 2em; /* Example font size, adjust as needed */
+    color: rgb(210, 105, 19); /* Example color, adjust as needed */
+    margin-bottom: 0.5em; /* Space below the title */
+  }
+
+  .section_subtitle p {
+    font-size: 1em; /* Example font size, adjust as needed */
+    color: #666; /* Example color, adjust as needed */
+    margin-top: 0; /* Remove default paragraph top margin */
+    margin-bottom: 1em; /* Space below the subtitle */
+  }
+.event_title a
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.4;
+	color: #384158;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.event_title a:hover
+{
+	color: rgb(210, 105, 19);
+}
+.event_info_container
+{
+	margin-top: 11px;
+}
+.event_info
+{
+	display: inline-block;
+	color: rgb(210, 105, 19);
+	font-size: 14px;
+}
+.event_info:not(:last-child)
+{
+	margin-right: 17px;
+}
+.event_info span
+{
+	margin-left: 4px;
+}
+.event_text
+{
+	margin-top: 12px;
+}
+
+/* Default styles for larger screens */
+.trans_200 {
+    /* Your default styles here */
+    font-size: 16px; /* Example size */
+    padding: 10px;
+    margin: 0 auto;
+  }
+  
+  /* Media query for tablets */
+  @media (max-width: 768px) {
+    .trans_200 {
+      font-size: 14px; /* Slightly smaller size */
+      padding: 8px;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 576px) {
+    .trans_200 {
+      font-size: 12px; /* Even smaller size */
+      padding: 5px;
+      margin-left: 5px; /* Adjust positioning if needed */
+    }
+  }
+  
+  
+/* footer*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  footer {
+    background-color: #0c0c0c;
+    color: rgb(210, 105, 19);
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(210, 105, 19);
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .social-links a:hover {
+    color:rgb(255, 255, 255);  /* Change the color on hover */
+  }
+/* footer*/

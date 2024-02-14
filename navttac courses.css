@@ -1,0 +1,446 @@
+/* header section */
+
+.header-section {
+    background-color: rgb(1, 14, 23);
+    padding: 10px 0; /* Adjust padding as needed */
+  }
+  
+  .company-logo img {
+    max-width: 100%; /* Adjust max-width to control the size of the logo */
+    height: auto;
+  }
+  
+  .company-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-name h1 {
+    margin-left: 15px;
+    font-size: 20px; /* Adjust font size for the heading */
+    color: white; /* Adjust text color for the heading */
+  }
+  
+  .header-icons a {
+    margin-left: 10px;
+    color: #f4f0f0;
+    font-size: 18px;
+  }
+  
+  .header-icons a:hover {
+    color: rgb(210, 105, 19);
+  }
+  
+  @media (max-width: 768px) {
+    .company-logo img {
+      max-width: 100%; /* Adjust max-width for smaller screens */
+    }
+    .header-icons a {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  /* header section */
+  
+  
+  /* header section */
+  
+  /* navbar */
+  #navcolor{
+    background-color:rgb(210, 105, 19) ;
+    
+  }
+  /* Navbar link styles */
+  .navbar-nav .nav-link {
+  color: white;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+  }
+  
+  .navbar-nav .nav-link:hover {
+  color: rgb(27, 15, 91); /* Change color on hover */
+  }
+  
+  /* Dropdown menu styles */
+  .dropdown-menu {
+  background-color: rgb(210, 105, 19); /* Dropdown background color */
+  }
+  
+  .dropdown-menu a {
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for background and color */
+  }
+  
+  .dropdown-menu a:hover {
+  background-color: rgba(10, 10, 10, 0.2); /* Change background color on hover */
+  color: white; /* Change text color on hover */
+  }
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .image-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .text-container {
+    flex: 1;
+    padding: 10%;
+    background-color: #f0f0f0;
+  }
+  
+  
+  /* header section */
+  /* navbar */
+    #navcolor{
+      background-color:rgb(210, 105, 19) ;
+      
+    }
+    /* Navbar link styles */
+  .navbar-nav .nav-link {
+    color: white;
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: rgb(27, 15, 91); /* Change color on hover */
+  }
+  
+  /* Dropdown menu styles */
+  .dropdown-menu {
+    background-color: rgb(210, 105, 19); /* Dropdown background color */
+  }
+  
+  .dropdown-menu a {
+    color: white;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for background and color */
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: rgba(10, 10, 10, 0.2); /* Change background color on hover */
+    color: white; /* Change text color on hover */
+  }
+  
+  
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      display: flex;
+    }
+    
+    .image-container {
+      flex: 1;
+      padding: 20px;
+    }
+    
+    .text-container {
+      flex: 1;
+      padding: 10%;
+      background-color: #f0f0f0;
+    }
+    
+  
+  /* header section */
+
+
+  
+/*courses*/
+
+
+.top-centered-section {
+  background-color: white; /* Sets the background color to white */
+  text-align: center; /* Ensures the text is centered */
+  padding: 10px 0; /* Adds some padding at the top and bottom */
+}
+
+.top-centered-section .text-center {
+  max-width: 500px;
+  margin: 0 auto 2.5rem; /* Centers the block and adds space at the bottom */
+}
+
+.top-centered-section h2.text-primary {
+  color: rgb(210, 105, 19) !important; /* Force the text color of h2 to orange */
+  text-transform: uppercase;
+  margin-top: 2rem; /* Adds top margin to h2 */
+}
+
+
+.top-centered-section h1.display-6 {
+  margin-bottom: 2rem; /* Adds bottom margin to h1 */
+}
+
+.container, .container-xxl {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 auto; /* Centers the container */
+}
+
+.course-section {
+  
+  padding-bottom: 6rem;
+  text-align: center; /* Center text */
+  background-color: white;
+}
+
+.text-center {
+  max-width: 500px;
+  margin: 0 auto 2.5rem; /* Centers the div and adds space at the bottom */
+  text-align: center; /* Center aligns the text */
+  animation: fadeInUp 0.1s both; /* Applies animation */
+  animation-delay: 0.1s; /* Delays the animation */
+}
+
+/* Primary Color Overlays and Buttons */
+/* Updated background color for price */
+.bg-primary {
+  background-color: rgb(210, 105, 19) !important; /* Force the background color to orange */
+  color: white !important; /* Ensures text color is white */
+}
+
+/* Updated color for the icons */
+.fa-signal.text-primary,
+.fa-calendar-alt.text-primary {
+  color: rgb(210, 105, 19)!important; /* Force the icon color to orange */
+}
+
+/* Course Item Overlay */
+.courses-item .courses-overlay {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  opacity: 0;
+  transition: height 0.5s, opacity 0.5s; /* Smooth transitions for height and opacity */
+}
+
+.courses-item:hover .courses-overlay {
+  height: 100%;
+  opacity: 1;
+  
+}
+.courses-item .courses-overlay .btn-outline-primary {
+  border-color: white; /* If you want the border to be white */
+  
+  visibility: visible; /* Make the button always visible */
+}
+
+/* Updates the color of the Read More button */
+.btn-outline-primary {
+  background-color: rgb(210, 105, 30);
+  border-color: rgb(210, 105, 30);
+  color: white !important; /* Ensures text color is white */
+
+}
+.btn-outline-primary:hover {
+  color: rgb(210, 105, 30) !important; /* Text color changes to orange on hover */
+  background-color: rgb(255, 255, 255) !important; /* Background becomes white on hover */
+  border-color: rgb(210, 105, 30) !important; 
+}
+/*courses*/
+
+
+/* q/a */
+
+.row {
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+}
+.p-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+
+  padding: 0 20px;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg {
+  background: #f8f8f8;
+}
+
+/* Section Title styles */
+.section-title {
+  margin-bottom: 30px;
+}
+
+.section-title h2 {
+  color: rgb(210, 105, 19);
+}
+
+.section-title p {
+  font-size: 16px;
+}
+
+.icon {
+  margin: 10px 0;
+}
+
+.icon i {
+  font-size: 40px;
+  color: rgb(210, 105, 19);
+  transition: transform 0.3s;
+}
+
+/* q/a */
+
+
+/* FAQ styles */
+.faq-main {
+  display: flex;
+  margin-top: 50px; 
+
+}
+
+.faqs {
+  background-color: #fff;
+}
+
+.faq-content {
+  width: 50%;
+  margin-left: 5rem;
+}
+
+.faq-image {
+  width:100%;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center; 
+  margin-left: -8rem;
+  
+  
+
+}
+
+.faq-image img {
+  width: 100%; 
+  border-radius: 50%; 
+  margin-top: 20px;
+  
+}
+@media (max-width: 768px) {
+  .faq-image {
+    margin-left: auto; 
+    margin-right: 100rem; 
+    width: 100px;
+    height: auto;
+  }
+  .faq-content {
+    width: 100%;
+   margin-left: -3rem;
+  }
+  
+}
+@media (max-width: 992px) {
+  .faq-image {
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px;
+    height: auto;
+  }
+  .faq-content {
+    width: 100%;
+
+  }
+  .faq-main{
+    margin-right:10 px;
+  }
+}
+.faq {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.faq-title {
+  padding: 15px;
+  font-size: 15px;
+  position: relative;
+  color: #252525;
+  background: #fff;
+  width: 100%;
+  display: block;
+  font-weight: 700;
+}
+
+.faq-title:hover {
+  color: rgb(210, 105, 19);
+}
+.faq-main .faq {
+  background: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  border: none;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0px 0px 5px rgb(210, 105, 19);
+  -moz-box-shadow: 0px 0px 5px rgb(210, 105, 19);
+  box-shadow: 0px 0px 5px rgb(210, 105, 19);
+}
+
+.faq-body {
+  padding: 10px;
+  color: #555;
+  font-size: 14px;
+  line-height: 24px;
+  background: #fff;
+  display: none;
+  margin-top: 5px;
+}
+.faq-main {
+  margin-left: 80px; 
+}
+.faq-body.active {
+  display: block;
+}
+  
+/* footer*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  footer {
+    background-color: #0c0c0c;
+    color: rgb(210, 105, 19);
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(210, 105, 19);
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .social-links a:hover {
+    color:rgb(255, 255, 255);  /* Change the color on hover */
+  }
+/* footer*/

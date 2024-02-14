@@ -1,0 +1,186 @@
+/* header section */
+.header-section {
+  background-color: rgb(1, 14, 23);
+  /* background-color: rgb(210, 105, 19); */
+  padding: 0px 0;
+}
+
+.company-logo img {
+  max-width: 670px; 
+  height: auto;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+}
+
+.company-name h1 {
+  margin-left: 15px;
+  font-size: 24px;
+}
+
+.header-icons a {
+  margin-left: 10px;
+  color: #f4f0f0;
+  font-size: 18px;
+}
+
+.header-icons a:hover{
+  color: rgb(210, 105, 19);
+}
+
+@media (max-width: 768px) {
+  .company-logo img {
+    max-width: 320px; 
+  }
+  .header-icons a{
+    font-size: 10px;
+  }
+}
+/* navbar */
+#navcolor{
+  background-color:rgb(210, 105, 19) ;
+  /* background-color:rgb(1, 14, 23); */
+  
+}
+/* Navbar link styles */
+.navbar-nav .nav-link {
+color: white;
+transition: color 0.3s ease-in-out; 
+}
+
+.navbar-nav .nav-link:hover {
+color: rgb(27, 15, 91); 
+}
+
+.dropdown-menu {
+background-color: rgb(210, 105, 19); 
+}
+
+.dropdown-menu a {
+color: white;
+transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+}
+
+.dropdown-menu a:hover {
+background-color: rgba(10, 10, 10, 0.2); 
+color: white;
+}
+
+  
+
+  /*---------gallery -------------*/
+  .container.gallery-container {
+    background-color: #fff;
+    color: #f9fbff;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgb(210, 105, 19);
+  }
+  
+  .top-centered-section {
+    background-color: white; /* Sets the background color to white */
+    text-align: center; /* Ensures the text is centered */
+  }
+  
+  .top-centered-section .text-center {
+    max-width: 500px;
+    margin: 0 auto 2.5rem; /* Centers the block and adds space at the bottom */
+  }
+  
+  .top-centered-section h2.text-primary {
+    color: rgb(210, 105, 19) !important; /* Force the text color of h2 to orange */
+    text-transform: uppercase;
+    margin-top: 2rem; /* Adds top margin to h2 */
+  }
+  
+  
+  .top-centered-section h1.display-6 {
+    margin-bottom: 2rem; /* Adds bottom margin to h1 */
+  }
+  .p-course-section {
+    
+    padding-bottom: 6rem;
+    text-align: center; /* Center text */
+    background-color: white;
+  }
+  
+  .tz-gallery {
+    padding: 40px;
+  }
+  
+  .tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgb(210, 105, 19);
+  }
+  
+  
+  .tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgb(210, 105, 19);
+  }
+  
+  .tz-gallery img {
+    border-radius: 4px;
+  }
+  
+  .baguetteBox-button {
+    background-color: transparent !important;
+  }
+ 
+
+  
+  
+  @media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+  
+    .container.gallery-container {
+        border-radius: 0;
+      
+    }
+    .lightbox img {
+      
+        max-width: 100%; /* This ensures the image is never wider than its container */
+        height: auto; /* This keeps the image aspect ratio intact */
+        display: block; /* This removes extra space below the image */
+        margin: 0 auto; /* This centers the image in the container if it's smaller than the container's width */
+      }
+       /* This centers the image in the container if it's smaller than the container's width */
+    }
+    
+  }
+ 
+  
+  /* footer*/
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  footer {
+    background-color: #0c0c0c;
+    color: rgb(210, 105, 19);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(210, 105, 19);
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    color:rgb(255, 255, 255);  /* Change the color on hover */
+  }
+  /* footer*/
+  

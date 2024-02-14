@@ -1,0 +1,421 @@
+/* header section */
+.header-section {
+    background-color: rgb(1, 14, 23);
+    padding: 0px 0;
+  }
+  
+  .company-logo img {
+    max-width: 670px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .company-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-name h1 {
+    margin-left: 15px;
+    font-size: 24px;
+  }
+  
+  .header-icons a {
+    margin-left: 10px;
+    color: #f4f0f0;
+    font-size: 18px;
+  }
+  
+  .header-icons a:hover{
+    color: rgb(210, 105, 19);
+  }
+  
+  @media (max-width: 768px) {
+    .company-logo img {
+      max-width: 320px; /* Adjust as needed */
+    }
+    .header-icons a{
+      font-size: 10px;
+    }
+  }
+/* navbar */
+  #navcolor{
+    background-color:rgb(210, 105, 19) ;
+    
+  }
+  /* Navbar link styles */
+.navbar-nav .nav-link {
+  color: white;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(27, 15, 91); /* Change color on hover */
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  background-color: rgb(210, 105, 19); /* Dropdown background color */
+}
+
+.dropdown-menu a {
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for background and color */
+}
+
+.dropdown-menu a:hover {
+  background-color: rgba(10, 10, 10, 0.2); /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+
+/*-------------------- testing------------------------*/
+
+.top-centered-section {
+  background-color: white;
+  text-align: center;
+}
+
+.top-centered-section .text-center {
+  margin: 0 auto 2.5rem; /* Remove the max-width property */
+  padding: 0 15px; /* Add horizontal padding if needed */
+}
+
+.top-centered-section h2.text-primary {
+  color: rgb(32, 32, 32) !important;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+.top-centered-section h3.text-primary {
+  color: black !important;
+}
+
+.top-centered-section .display-8 {
+  margin: 2rem 4rem; /* top and bottom margins are 2rem, left and right margins are 4rem */
+  text-align: center; /* Justify the text to spread it across the width */
+}
+
+  .p-course-section {
+    
+    padding-bottom: 6rem;
+    text-align: center; /* Center text */
+    background-color: white;
+  }
+
+.carousel-inner {
+    padding: 1em;
+  }
+  .carousel-item .card {
+    /* Set a specific width smaller than what it currently is */
+    width: 450px; /* or any other value that fits your design */
+
+    /* Increase the height */
+    height: 450px; /* or any other value that fits your design */
+
+    /* Optional: center the card in the carousel-item if needed */
+    margin: auto;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 13em); /* Subtract the height of the image wrapper */
+  justify-content: space-between; /* Aligns items to top and bottom */
+}
+.img-wrapper img {
+  height: 250px; /* Set a fixed height for all images */
+  width: 200%; /* Make image width responsive to the container */
+  object-fit: cover; /* This will cover the area, cropping the image if necessary */
+  display: block; /* Removes bottom space/aligns with the bottom of the container */
+}
+
+  .card {
+    display: flex;
+    flex-direction: column; /* Stack the card content and button vertically */
+    justify-content: space-between; /* This pushes the button to the bottom */
+    position: relative;
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgb(210, 105, 19);
+    border: none;
+    height: 100%; 
+  }
+  .carousel-control-prev,
+.carousel-control-next {
+    background-color: rgb(210, 105, 19);
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.carousel-control-prev {
+    left: 2%;
+}
+
+.carousel-control-next {
+    right: 2%;
+}
+
+
+
+  .btn{
+    background-color: rgb(210, 105, 19);
+    border-color: black;
+    
+    align-self: center; /* Align the button to the center horizontally */
+    margin-top: auto; /* Push the button to the bottom */
+    width: fit-content; /
+
+  }
+  
+  
+  .btn:hover {
+    color: rgb(210, 105, 30) !important; /* Text color changes to orange on hover */
+  background-color: rgb(255, 255, 255) !important; /* Background becomes white on hover */
+  border-color: rgb(210, 105, 30) !important; }
+
+    /* Lightbox (background) */
+.lightbox {
+  display: none; /* Hide the lightbox by default */
+  position: fixed; /* Positioning the lightbox */
+  z-index: 1000; /* Making sure it's above everything else */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  overflow: hidden; /* Hide scrollbars */
+}
+
+/* Lightbox content */
+.lightbox-content {
+  position: relative;
+  width: 80%; /* Width of lightbox image */
+  max-width: 700px; /* Maximum width */
+  margin: 10% auto; /* Centering */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image inside lightbox */
+.lightbox img {
+  width: 100%; /* Make image use all available width */
+  height: auto; /* Adjust height automatically */
+}
+
+/* Close button */
+.close-lightbox {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 50px;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Show the lightbox when it's target */
+:target {
+  display: block; /* Show lightbox */
+}
+
+/* Optional: Animation */
+.lightbox {
+  transition: all 0.5s;
+}
+
+/* Optional: Close button hover effect */
+.close-lightbox:hover {
+  cursor: pointer;
+  color: #999;
+}
+
+
+    @media (min-width: 768px) {
+      .carousel-item {
+        margin-right: 0;
+        flex: 0 0 33.333333%;
+        display: block;
+      }
+      .carousel-inner {
+        display: flex;
+      }
+    }
+    .card .img-wrapper {
+        max-width: 100%;
+        height: 13em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card img {
+        max-height: 100%;
+    }
+    @media (max-width: 767px) {
+      .card .img-wrapper {
+        height: 17em;
+      }
+      .card-body h5 {
+        font-size: 1em; /* Smaller font size for the title on small screens */
+      }
+    
+      .card-body p {
+        font-size: 0.8em; /* Smaller font size for the text on small screens */
+      }
+    
+      .btn-primary {
+        padding: 8px 16px; /* Smaller padding for buttons on small screens */
+        font-size: 0.9em; /* Smaller font size for buttons on small screens */
+      margin-top: -1em;
+      }
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        /* Reduce the size of the background image containing the arrow */
+        background-size: 50%; /* Adjust the percentage as needed */
+      }
+    
+      .carousel-control-prev, 
+      .carousel-control-next {
+        /* Adjust the overall size of the control buttons */
+        width: 2rem; /* Adjust the width as needed */
+        height: 2rem; /* Adjust the height as needed */
+      }
+      .carousel-item .card {
+        /* Adjust the card size for smaller screens */
+        width: auto; /* Allows the card to scale down */
+        margin: 0 10px; /* Add some horizontal space */
+      }
+    }
+
+    /*-------------------- testing------------------------*/
+
+/*----------------------------other------------------*/
+  
+.grayRow h1,
+  .grayRow h2 {
+      color: rgb(210, 105, 19);
+      text-align: center;
+
+  }
+
+  .grayRow p {
+      color: black;
+  }
+  .centerOrb {
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px; /* Adjust the top margin as needed */
+      max-width: 100%; /* Set maximum width to ensure responsiveness */
+      height: auto; /* Maintain aspect ratio */
+  }
+  .rowHeadline h1 {
+      font-size: 28px; /* Adjust the font size as needed */
+      text-align: center;
+  }
+  
+  .rowHeadline p {
+      font-size: 20px; /* Adjust the font size as needed */
+  }
+  .list-inline a {
+      color:rgb(210, 105, 19); /* Change the color to your preferred color */
+  }
+  .valueHighlight p {
+      font-size: 20px; /* Adjust the font size as needed */
+  }
+ 
+
+  .list-inline a.waves-effect {
+      background-color:rgb(210, 105, 19);
+      color: white;
+      border: 1px solid rgb(0, 0, 0); /* Add a border for better visibility */
+  }
+  .list-inline.text-center li a.waves-effect {
+    font-size: 20px; /* Increase font size */
+    padding: 10px 12px; /* Increase padding to make the button larger */
+    /* You can also specify width and height if needed */
+    display: inline-block; /* Ensures padding and height/width are respected */
+}
+
+.list-inline.text-center {
+    /* Add styles here if you need to adjust the <ul> itself */
+    padding: 20px; /* Example: adding padding around the list */
+}
+
+  
+  .list-inline a.waves-effect:hover {
+    
+      background-color: rgb(192, 147, 92);
+      color: rgb(255, 253, 252);
+  }
+  
+ .valueHighlight {
+text-align: center;
+display: flex;
+flex-direction: column;
+height: 100%; 
+}
+
+.valueWrap h2,
+.valueWrap p {
+display: inline-block;
+margin: 0 10px;
+}
+/* Ensures that .row uses Flexbox and aligns items from the start */
+.row {
+    display: flex;
+    align-items: start;
+}
+
+/* Style for each column to ensure they are of equal height */
+.col-sm-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* This will push the <h2> and <p> to the bottom of the column */
+.valueHighlight {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Full height of the column */
+}
+
+.valueHighlight h2 {
+    margin-top: auto; /* Pushes the h2 and p to the bottom */
+}
+
+
+
+
+/*----------------------------other------------------*/
+/* footer*/
+
+
+  
+html {
+    position: relative;
+    min-height: 100%;
+  }
+ 
+footer {
+    background-color: #0c0c0c;
+    color: rgb(210, 105, 19);
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6rem; 
+  }
+
+  .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(210, 105, 19);
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .social-links a:hover {
+    color:rgb(255, 255, 255);  /* Change the color on hover */
+  }
+/* footer*/
